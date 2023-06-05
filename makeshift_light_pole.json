@@ -27,13 +27,12 @@
         { "item": "e_scrap", "count": [ 0, 4 ] },
         { "item": "light_bulb", "count": [ 0, 4 ] },
         { "item": "cable", "charges": [ 2, 3 ] },
-        { "item": "rope_30", "charges": [ 0, 4] },
+        { "item": "rope_30", "charges": [ 0, 4 ] },
         { "item": "plastic_chunk", "count": [ 2, 4 ] },
         { "item": "duct_tape", "count": [ 0, 8 ] }
       ]
     }
   },
-
   {
     "type": "GENERIC",
     "id": "makeshift_light_pole",
@@ -50,7 +49,6 @@
     "color": "white",
     "looks_like": "bundle_pipe"
   },
-  
   {
     "result": "makeshift_light_pole",
     "type": "recipe",
@@ -81,7 +79,6 @@
     "id": "place_makeshift_light_pole",
     "name": "Place Makeshift Light Pole"
   },
-
   {
     "type": "construction",
     "id": "ap_makeshift_light_pole",
@@ -95,7 +92,6 @@
     "post_special": "done_appliance",
     "activity_level": "NO_EXERCISE"
   },
-
   {
     "id": "app_makeshift_light_pole",
     "type": "vehicle_part",
@@ -106,25 +102,24 @@
     "categories": [ "lighting" ],
     "color": "white",
     "broken_color": "blue",
-    "durability": 100,
+    "durability": 200,
     "description": "A mass of jointed poles extends for meters into the air, with a wide base and several ropes anchoring it to ground. An extension cord hangs loosely from the cluster of floodlights positioned to illuminate the surroundings. 'e'xamine to plug in this device.",
-    "epower": -40,
-    "bonus": 500,
+    "epower": "-45 W",
+    "bonus": 400,
     "damage_modifier": 10,
     "looks_like": "f_street_light",
-      "breaks_into": [
-        { "item": "pipe", "count": [ 1, 14 ] },
-        { "item": "scrap", "count": [ 3, 12 ] },
-        { "item": "amplifier", "count": [ 1, 3 ] },
-        { "item": "e_scrap", "count": [ 0, 4 ] },
-        { "item": "light_bulb", "count": [ 0, 4 ] },
-        { "item": "long_extension_cable", "count": [ 2, 3 ] },
-        { "item": "rope_30", "count": [ 0, 4] },
-        { "item": "plastic_chunk", "count": [ 2, 4 ] },
-        { "item": "duct_tape", "count": [ 0, 8 ] }
-      ],
+    "breaks_into": [
+      { "item": "pipe", "count": [ 1, 14 ] },
+      { "item": "scrap", "count": [ 3, 12 ] },
+      { "item": "amplifier", "count": [ 1, 3 ] },
+      { "item": "e_scrap", "count": [ 0, 4 ] },
+      { "item": "light_bulb", "count": [ 0, 4 ] },
+      { "item": "long_extension_cable", "count": [ 2, 3 ] },
+      { "item": "rope_30", "count": [ 0, 4 ] },
+      { "item": "plastic_chunk", "count": [ 2, 4 ] },
+      { "item": "duct_tape", "count": [ 0, 8 ] }
+    ],
     "flags": [ "CIRCLE_LIGHT", "APPLIANCE", "ENABLED_DRAINS_EPOWER", "CTRL_ELECTRONIC", "MOUNTABLE", "OBSTACLE", "HALF_BOARD" ],
     "requirements": { "removal": { "time": "15 m" } }
   }
-  
 ]
