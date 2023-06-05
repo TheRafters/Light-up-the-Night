@@ -1,1 +1,6 @@
-The current version is for 0.G Stable, however I am working with Eire from discord to make this repo work on experimental. I will be keeping the Stable version in a separate repo at that time.
+Light Up The Night
+
+mod id "lutn"
+
+Bring a little light to your darkness.
+Street and traffic lights are still working hard, dim as they are. And those flag enthusiasts sure build to last! Added crafting of a makeshift light pole, less efficient and durable, but far easier to move around. Created for Cataclysm ver. 0.G Stable. (UPDATE TO EXPERIMENTAL COMPLETED June 5th, 2023.) TODO: Convert overwrites to copy-from/extend.
