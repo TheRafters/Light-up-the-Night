@@ -268,7 +268,7 @@
       [ [ "fake_lift_heavy", 1 ] ],
       
       [ [ "pickaxe", -1 ], [ "bronze_pickaxe", -1 ], [ "jackhammer", 1 ], [ "elec_jackhammer", 50 ] ],
-      [ [ "rope_30", 1 ] ] 
+      [ [ "ROPE", 2 ] ] 
       
     } }
   }
