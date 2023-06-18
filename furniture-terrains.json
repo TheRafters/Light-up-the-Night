@@ -263,13 +263,10 @@
     "flags": [ "CIRCLE_LIGHT", "APPLIANCE", "ENABLED_DRAINS_EPOWER", "CTRL_ELECTRONIC", "MOUNTABLE", "OBSTACLE", "HALF_BOARD" ],
     "requirements": { "removal": { 
       "time": "60 m", 
-      "using": [ [ "vehicle_wrench_2", 1 ] ],
+      "using": [
+      [ [ "vehicle_wrench_2", 1 ] ]
       
-      [ [ "fake_lift_heavy", 1 ] ],
-      
-      [ [ "pickaxe", -1 ], [ "bronze_pickaxe", -1 ], [ "jackhammer", 1 ], [ "elec_jackhammer", 50 ] ],
-      [ [ "rope_30", 1 ] ] 
-      
+      ]
     } }
   }
 ]
