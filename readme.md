@@ -1,6 +1,7 @@
 Light Up The Night
 
 mod id "lutn"
+( Compatible Version: Experimental, September 8th 2023 )
 
-Bring a little light to your darkness.
-Street and traffic lights are still working hard, dim as they are. And those flag enthusiasts sure build to last! Added crafting of a makeshift light pole, less efficient and durable, but far easier to move around. Created for Cataclysm ver. 0.G Stable. (UPDATE TO EXPERIMENTAL COMPLETED June 5th, 2023.) TODO: Convert overwrites to copy-from/extend.
+Street and traffic lights manage to maintain emergency lighting via solar panels and microciruitry. Any 5 year old can plug a battery into one and obtain brighter lighting, but moving one would be a project. Added craftable makeshift light pole, less durable, but far easier to move around. 
+ TODO: Convert overwrites to copy-from/extend.
